@@ -4,7 +4,7 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
 
 ## Contenido
 
-- `pacman_marie.asm` &mdash; Código fuente en ensamblador MARIE (última versión).
+- `pacman_marie.mas` &mdash; Código fuente en ensamblador MARIE (última versión).
 - `pacman_marie_paper.tex` &mdash; Short paper en formato IEEE (LaTeX) que documenta diseño, metodología, resultados y conclusiones.
 - `README.md` &mdash; Documentación y guía de uso.
 
@@ -13,7 +13,7 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
 - **MARIE Simulator**: entorno educativo para ejecutar y depurar programas escritos en MARIE.
 
 
-## Estructura de `pacman_marie.asm`
+## Estructura de `pacman_marie.mas`
 
 1. **Inicialización de Datos**
    - Vectores `pacMovimientos` y `ghostMovimientos` con direcciones aleatorias (valores 1–4).
@@ -45,9 +45,9 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
 ## Uso
 
 1. Abre el simulador MARIE.
-2. Carga `pacman_marie.asm`.
+2. Carga `pacman_marie.mas`.
 3. Ensambla y ejecuta.
-4. Observa el laberinto generado, movimientos automáticos de Pac‑Man y fantasmas.
+4. Observa el laberinto generado, movimientos automáticos de Pac‑Man y fantasmas en las sección de 'Display'.
 5. En la sección de salida (`Output`), aparecerá el puntaje final.
 
 
