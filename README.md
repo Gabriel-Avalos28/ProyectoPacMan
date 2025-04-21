@@ -11,7 +11,6 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
 ## Requisitos
 
 - **MARIE Simulator**: entorno educativo para ejecutar y depurar programas escritos en MARIE.
-- **TeX Live** o similar: para compilar el documento LaTeX (`pacman_marie_paper.tex`).
 
 
 ## Estructura de `pacman_marie.asm`
