@@ -16,8 +16,8 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
 ## Estructura de `pacman_marie.mas`
 
 1. **Inicialización de Datos**
-   - Vectores `pacMovimientos` y `ghostMovimientos` con direcciones aleatorias (valores 1–4).
-   - Secciones de mapa: colores de fondo, muros (`PARED_COLOR`), monedas (`BOLITA_COLOR`), esteroides (`ESTEROIDE_COLOR`).
+   - Arrays `pacMovimientos` y `ghostMovimientos` con 100 direcciones aleatorias (valores 1–4, 1=arriba, 2=abajo, 3=izquierda, 4=derecha).
+   - Secciones de mapa: colores de fondo, muros (`PARED_COLOR`), monedas (`BOLITA_COLOR`), esteroides (`ESTEROIDE_COLOR`). Carga de personajes ('BLINKY_COLOR', 'CLYDE_COLOR', 'PINKY_COLOR', 'INKY_COLOR' y 'PAC-MAN_COLOR').
    - Variables de estado globales: `vidas`, `score`, punteros y contadores.
 
 2. **Renderizado del Mundo**
@@ -25,20 +25,24 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
    - El display se modela como un arreglo lineal de 16×16 posiciones a partir de la dirección `OFFSET`.
 
 3. **Lógica Principal**
-   - Etiqueta `PACMAN` y `CLYDE`, `INKY`, `PINKY`, `BLINKY`: lectura de posición, color y salto a `getMovPac()` o `getMovGhost()`.
-   - `getMovPac()`, `getMovGhost()`: obtienen la siguiente dirección usando punteros circulares y reinician contadores.
+   - Etiqueta `PACMAN`, `CLYDE`, `INKY`, `PINKY` y `BLINKY`: lectura de posición, color y salto a `getMovPac()` o `getMovGhost()`.
+   - `getMovPac()`, `getMovGhost()`: obtienen la siguiente dirección usando punteros circulares y reinician contadores en caso de ser necesario.
    - `INICIO`: determina la dirección (arriba, abajo, izquierda, derecha) y llama a la subrutina de movimiento.
 
-4. **Prevención de Colisiones**
+4. **Lógica de los personajes**
+   - 'pacmanLogic()': Método encargado de controlar la lógica del Pac-Man, llama a los métodoos 'isPared()' (detecta muros), 'isEsteroide()' (controla el estado del modo agresivo), 'getScore()' (aumenta el score si se come a un fantasma o una moneda), 'LOSE' (verifica cuando se choche con un fantasma) y 'drawBlack()' (controla el movimiento).
+   - 'ghostLogic()': Método encargado de controlar la lógica de los fantasma, lo primero que hace es verificar de que fantasma es el que trata, y tiene el metodo 'at()' que lo lleva al método 'atravesar()' (para evitar que elimine monedas o esteroides).
+
+6. **Prevención de Colisiones**
    - `isPared()`: evita avanzar sobre muros.
    - `touchPacman()`: detecta colisión Pac‑Man vs fantasma y llama a `HandleLifeLoss()`.
 
-5. **Estado de Juego**
+7. **Estado de Juego**
    - **Puntuación**: cada moneda vale +1 (`setScoreBolita()`), cada fantasma +10 (`setScoreFantasma()`).
    - **Vidas**: contador `vidas` decrementa en `HandleLifeLoss()`. Si llega a 0, salta a `FINAL`.
    - **Esteroides**: al ingresar a casilla de color `ESTEROIDE_COLOR`, activa modo agresivo por `STEP_LIMIT` pasos.
 
-6. **Finalización**
+8. **Finalización**
    - `FINAL`: imprime `score` en la consola de MARIE y finaliza con `Halt`.
 
 
