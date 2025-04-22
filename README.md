@@ -30,8 +30,8 @@ Este repositorio contiene la implementación completa del juego **Pac‑Man** so
    - `INICIO`: determina la dirección (arriba, abajo, izquierda, derecha) y llama a la subrutina de movimiento.
 
 4. **Lógica de los personajes**
-   - 'pacmanLogic()': Método encargado de controlar la lógica del Pac-Man, llama a los métodoos 'isPared()' (detecta muros), 'isEsteroide()' (controla el estado del modo agresivo), 'getScore()' (aumenta el score si se come a un fantasma o una moneda), 'LOSE' (verifica cuando se choche con un fantasma) y 'drawBlack()' (controla el movimiento).
-   - 'ghostLogic()': Método encargado de controlar la lógica de los fantasma, lo primero que hace es verificar de que fantasma es el que trata, y tiene el metodo 'at()' que lo lleva al método 'atravesar()' (para evitar que elimine monedas o esteroides).
+   - `pacmanLogic()`: Método encargado de controlar la lógica del Pac-Man, llama a los métodoos `isPared` (detecta muros), `isEsteroide()` (controla el estado del modo agresivo), `getScore()` (aumenta el score si se come a un fantasma o una moneda), `LOSE` (verifica cuando se choche con un fantasma) y `drawBlack()` (controla el movimiento).
+   - `ghostLogic()`: Método encargado de controlar la lógica de los fantasma, lo primero que hace es verificar de que fantasma es el que trata, y tiene el metodo `at()` que lo lleva al método `atravesar()` (para evitar que elimine monedas o esteroides).
 
 6. **Prevención de Colisiones**
    - `isPared()`: evita avanzar sobre muros.
