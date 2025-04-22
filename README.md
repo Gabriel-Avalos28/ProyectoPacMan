@@ -1,81 +1,85 @@
 # Proyecto Pac‑Man en MARIE
 
-Este repositorio contiene la implementación completa del juego **Pac‑Man** sobre el simulador **MARIE** (Machine Architecture that is Really Intuitive and Easy). El objetivo es demostrar conceptos de arquitectura de computadores: manejo de memoria, control de flujo, subrutinas y lógica de colisiones usando código de bajo nivel.
+Este repositorio contiene la implementación del clásico juego **Pac‑Man** sobre el simulador **MARIE** (Machine Architecture that is Really Intuitive and Easy). El objetivo principal es ilustrar conceptos de arquitectura de computadores (gestión de memoria, control de flujo, subrutinas y lógica de colisiones) mediante código de bajo nivel.
 
-## Contenido
+## Contenido del repositorio
 
 - `pacman_marie.mas` &mdash; Código fuente en ensamblador MARIE (última versión).
-- `pacman_marie_paper.tex` &mdash; Short paper en formato IEEE (LaTeX) que documenta diseño, metodología, resultados y conclusiones.
-- `README.md` &mdash; Documentación y guía de uso.
+- `pacman_marie_paper.tex` &mdash; Short paper en formato IEEE que documenta diseño, metodología, resultados y conclusiones.
+- `README.md` &mdash; Guía de uso y descripción de la arquitectura implementada.
 
 ## Requisitos
 
-- **MARIE Simulator**: entorno educativo para ejecutar y depurar programas escritos en MARIE.
-
+- **MARIE Simulator**: para compilar y ejecutar programas en MARIE.
+- **TeX Live** (o similar): para compilar el documento LaTeX.
 
 ## Estructura de `pacman_marie.mas`
 
 1. **Inicialización de Datos**
-   - Arrays `pacMovimientos` y `ghostMovimientos` con 100 direcciones aleatorias (valores 1–4, 1=arriba, 2=abajo, 3=izquierda, 4=derecha).
-   - Secciones de mapa: colores de fondo, muros (`PARED_COLOR`), monedas (`BOLITA_COLOR`), esteroides (`ESTEROIDE_COLOR`). Carga de personajes ('BLINKY_COLOR', 'CLYDE_COLOR', 'PINKY_COLOR', 'INKY_COLOR' y 'PAC-MAN_COLOR').
-   - Variables de estado globales: `vidas`, `score`, punteros y contadores.
+   - Vectores `pacMovimientos` y `ghostMovimientos` con 100 direcciones pseudoaleatorias (1=arriba, 2=abajo, 3=izquierda, 4=derecha).
+   - Secciones de mapa: colores de fondo, muros (`PARED_COLOR`), monedas (`BOLITA_COLOR`), esteroides (`ESTEROIDE_COLOR`) y personajes (`BLINKY_COLOR`, `INKY_COLOR`, `PINKY_COLOR`, `CLYDE_COLOR`, `PAC-MAN_COLOR`).
+   - Variables globales: `vidas`, `score`, punteros (`ptrPac`, `ptrGhost`), contadores y estado de esteroide.
 
 2. **Renderizado del Mundo**
-   - Subrutina `drawInDisplay()` dibuja cada pixel en la memoria de video.
-   - El display se modela como un arreglo lineal de 16×16 posiciones a partir de la dirección `OFFSET`.
+   - Subrutina `drawInDisplay()`: mapea un arreglo lineal de 16×16 posiciones (offset `0xF00`) a píxeles en memoria de video.
 
-3. **Lógica Principal**
-   - Etiqueta `PACMAN`, `CLYDE`, `INKY`, `PINKY` y `BLINKY`: lectura de posición, color y salto a `getMovPac()` o `getMovGhost()`.
-   - `getMovPac()`, `getMovGhost()`: obtienen la siguiente dirección usando punteros circulares y reinician contadores en caso de ser necesario.
-   - `INICIO`: determina la dirección (arriba, abajo, izquierda, derecha) y llama a la subrutina de movimiento.
+3. **Generación de Movimientos**
+   - `getMovPac()` y `getMovGhost()`: leen y avanzan punteros circulares sobre los vectores de direcciones, reiniciando contadores al llegar a 100.
 
-4. **Lógica de los personajes**
-   - `pacmanLogic()`: Método encargado de controlar la lógica del Pac-Man, llama a los métodoos `isPared` (detecta muros), `isEsteroide()` (controla el estado del modo agresivo), `getScore()` (aumenta el score si se come a un fantasma o una moneda), `LOSE` (verifica cuando se choche con un fantasma) y `drawBlack()` (controla el movimiento).
-   - `ghostLogic()`: Método encargado de controlar la lógica de los fantasma, lo primero que hace es verificar de que fantasma es el que trata, y tiene el metodo `at()` que lo lleva al método `atravesar()` (para evitar que elimine monedas o esteroides).
+4. **Lógica de Personajes**
+   - **Pac‑Man** (`pacmanLogic()`): evita muros (`isPared()`), gestiona esteroides (`isEsteroide()`), actualiza puntaje (`getScore()`), detecta colisiones (`LOSE`) y refresca pantalla (`drawBlack()`).
+   - **Fantasmas** (`ghostLogic()`): identifica cada fantasma por `id`, restablece color previo, evita borrar objetos valiosos (`atravesar()`) y redibuja.
 
-6. **Prevención de Colisiones**
-   - `isPared()`: evita avanzar sobre muros.
-   - `touchPacman()`: detecta colisión Pac‑Man vs fantasma y llama a `HandleLifeLoss()`.
+5. **Prevención de Colisiones**
+   - `isPared()`: detiene movimiento si hay muro.
+   - `touchPacman()`: detecta choque fantasma–Pac‑Man y llama a `HandleLifeLoss()`.
 
-7. **Estado de Juego**
-   - **Puntuación**: cada moneda vale +1 (`setScoreBolita()`), cada fantasma +10 (`setScoreFantasma()`).
-   - **Vidas**: contador `vidas` decrementa en `HandleLifeLoss()`. Si llega a 0, salta a `FINAL`.
-   - **Esteroides**: al ingresar a casilla de color `ESTEROIDE_COLOR`, activa modo agresivo por `STEP_LIMIT` pasos.
+6. **Gestión de Estado**
+   - **Puntuación**: +1 por moneda (`setScoreBolita()`), +10 por fantasma (`setScoreFantasma()`).
+   - **Vidas**: decremento en `HandleLifeLoss()`; si 
+     - `vidas > 0` → `ResetPositions()`.  
+     - `vidas == 0` → `FINAL` y fin de ejecución.
+   - **Esteroides**: activación por `STEP_LIMIT` pasos, con contador y restauración de color.
+
+7. **Restablecimiento de Posiciones**
+   - `ResetPositions()`: limpia sprites, reubica personajes en coordenadas iniciales, restaura colores y retoma flujo.
 
 8. **Finalización**
-   - `FINAL`: imprime `score` en la consola de MARIE y finaliza con `Halt`.
-
+   - `FINAL`: imprime `score` en `Output` y ejecuta `Halt`.
 
 ## Uso
 
-1. Abre el simulador MARIE.
-2. Carga `pacman_marie.mas`.
-3. Ensambla y ejecuta.
-4. Observa el laberinto generado, movimientos automáticos de Pac‑Man y fantasmas en las sección de 'Display'.
-5. En la sección de salida (`Output`), aparecerá el puntaje final.
-
+1. Inicia MARIE Simulator.
+2. Abre y ensambla `pacman_marie.mas`.
+3. Ejecuta el programa y observa el display.
+4. Al finalizar, el score aparece en la sección `Output`.
 
 ## Personalización
 
-- **Mapas y posiciones**: edita los vectores `pacMovimientos`, `ghostMovimientos` o los bloques de datos de `MAPA` para cambiar el recorrido o la distribución de muros.
-- **Duración de esteroides**: modifica `STEP_LIMIT` al valor deseado.
-- **Colores**: ajusta constantes como `PARED_COLOR`, `BOLITA_COLOR`, `ESTEROIDE_COLOR` con otros valores hexadecimales.
-
+- **Recorridos**: modifica `pacMovimientos` y `ghostMovimientos`.
+- **Mapa**: ajusta los datos bajo la etiqueta `MAPA`.
+- **Esteroides**: cambia `STEP_LIMIT`.
+- **Colores**: redefine constantes hexadecimales.
 
 ## Documentación Académica
 
-El short paper (`pacman_marie_paper.tex`) describe detalladamente:
-
-- Metodología de diseño y organización en memoria.
+El short paper (`pacman_marie_paper.tex`) incluye:
+- Arquitectura de memoria y diseño de subrutinas.
 - Pseudocódigo de alto nivel.
-- Resultados de pruebas y ejemplos de ejecución.
-- Conclusiones y posibles extensiones.
+- Ejemplos de ejecución y resultados.
+- Conclusiones y perspectivas de extensión.
 
-Para compilar:
-```
-pdflatex pacman_marie_paper.tex
+Para compilar el documento:
+```bash
+detectnull= pdflatex pacman_marie_paper.tex
 ```
 
+## Perspectivas de Extensión
+
+Estas mejoras podrían enriquecer el proyecto:
+- **IA avanzada**: algoritmos de búsqueda (A*, BFS) para persecución de fantasmas.
+- **Laberintos procedurales**: generación automática de mapas con algoritmos DFS o Prim.
+- **Interfaz gráfica externa**: aplicación en Python, JavaScript o Flutter que lea la memoria de MARIE y ofrezca control en tiempo real.
 
 ## Autores
 
@@ -83,10 +87,9 @@ pdflatex pacman_marie_paper.tex
 - David Bucheli
 - Jhonatan Quiroga
 
-Universidad San Francisco de Quito (USFQ)
-
+**Universidad San Francisco de Quito (USFQ)**
 
 ## Licencia
 
-Este proyecto es de uso educativo y está libre para fines académicos. Para cualquier reproducción fuera de este contexto, contactar a los autores.
+Proyecto de uso educativo. Para otros usos, contactar a los autores.
 
