@@ -16,7 +16,7 @@ Este repositorio contiene la implementación del clásico juego **Pac‑Man** so
 - **Python 3**: para ejecutar `movPac.py` y `movGhost.py`.  
 - **TeX Live** (o similar): para compilar el documento LaTeX.
 
-## Generar vectores de movimiento
+## Generar arreglos de movimiento
 
 Para actualizar las secuencias de movimiento basta con ejecutar los scripts y copiar su salida:
 
@@ -35,7 +35,7 @@ python movGhost.py   # imprime en consola las 100 líneas DEC para ghostMovimien
    - Subrutina `drawInDisplay()`: mapea un arreglo lineal de 16×16 posiciones (offset `0xF00`) a píxeles en memoria de video.
 
 3. **Generación de Movimientos**
-   - `getMovPac()` y `getMovGhost()`: leen y avanzan punteros circulares sobre los vectores de direcciones, reiniciando contadores al llegar a 100.
+   - `getMovPac()` y `getMovGhost()`: leen y avanzan punteros circulares sobre los arreglos de direcciones, reiniciando contadores al llegar a 100.
 
 4. **Lógica de Personajes**
    - **Pac‑Man** (`pacmanLogic()`): evita muros (`isPared()`), gestiona esteroides (`isEsteroide()`), actualiza puntaje (`getScore()`), detecta colisiones (`GameOver`) y refresca pantalla (`moverse()`).
