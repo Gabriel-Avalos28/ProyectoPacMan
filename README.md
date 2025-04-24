@@ -18,7 +18,7 @@ Este repositorio contiene la implementación del clásico juego **Pac‑Man** so
 
 ## Generar arreglos de movimiento
 
-Para actualizar las secuencias de movimiento basta con ejecutar los scripts y copiar su salida:
+Para actualizar los arreglos de movimiento basta con ejecutar los scripts y copiar su salida:
 
 ```bash
 python movPac.py     # imprime en consola las 100 líneas DEC para pacMovimientos
