@@ -4,19 +4,30 @@ Este repositorio contiene la implementación del clásico juego **Pac‑Man** so
 
 ## Contenido del repositorio
 
-- `pacman_marie.mas` &mdash; Código fuente en ensamblador MARIE (última versión).
-- `pacman_marie_paper.tex` &mdash; Short paper en formato IEEE que documenta diseño, metodología, resultados y conclusiones.
-- `README.md` &mdash; Guía de uso y descripción de la arquitectura implementada.
+- `pacman_marie.mas` — Código fuente en ensamblador MARIE (última versión).  
+- `movPac.py` — Generador de `pacMovimientos` en Python (evita giros de 180°).  
+- `movGhost.py` — Generador de `ghostMovimientos` en Python (direcciones uniformes).  
+- `pacman_marie_paper.tex` — Short paper en formato IEEE que documenta diseño, metodología, resultados y conclusiones.  
+- `README.md` — Guía de uso y descripción de la arquitectura implementada.
 
 ## Requisitos
 
-- **MARIE Simulator**: para compilar y ejecutar programas en MARIE.
+- **MARIE Simulator**: para compilar y ejecutar programas en MARIE.  
+- **Python 3**: para ejecutar `movPac.py` y `movGhost.py`.  
 - **TeX Live** (o similar): para compilar el documento LaTeX.
 
+## Generar vectores de movimiento
+
+Para actualizar las secuencias de movimiento basta con ejecutar los scripts y copiar su salida:
+
+```bash
+python movPac.py     # imprime en consola las 100 líneas DEC para pacMovimientos
+python movGhost.py   # imprime en consola las 100 líneas DEC para ghostMovimientos
+```
 ## Estructura de `pacman_marie.mas`
 
 1. **Inicialización de Datos**
-   - Vectores `pacMovimientos` y `ghostMovimientos` con 100 direcciones pseudoaleatorias (1=arriba, 2=abajo, 3=izquierda, 4=derecha).
+   - `pacMovimientos` y `ghostMovimientos` se generan mediante los scripts Python `movPac.py` y `movGhost.py`, que imprimen las 100 líneas `DEC` necesarias (1=arriba, 2=abajo, 3=izquierda, 4=derecha) para copiar directamente en `pacman_marie.mas`.
    - Secciones de mapa: colores de fondo, muros (`PARED_COLOR`), monedas (`BOLITA_COLOR`), esteroides (`ESTEROIDE_COLOR`) y personajes (`BLINKY_COLOR`, `INKY_COLOR`, `PINKY_COLOR`, `CLYDE_COLOR`, `PAC-MAN_COLOR`).
    - Variables globales: `vidas`, `score`, punteros (`ptrPac`, `ptrGhost`), contadores y estado de esteroide.
 
@@ -27,7 +38,7 @@ Este repositorio contiene la implementación del clásico juego **Pac‑Man** so
    - `getMovPac()` y `getMovGhost()`: leen y avanzan punteros circulares sobre los vectores de direcciones, reiniciando contadores al llegar a 100.
 
 4. **Lógica de Personajes**
-   - **Pac‑Man** (`pacmanLogic()`): evita muros (`isPared()`), gestiona esteroides (`isEsteroide()`), actualiza puntaje (`getScore()`), detecta colisiones (`LOSE`) y refresca pantalla (`drawBlack()`).
+   - **Pac‑Man** (`pacmanLogic()`): evita muros (`isPared()`), gestiona esteroides (`isEsteroide()`), actualiza puntaje (`getScore()`), detecta colisiones (`GameOver`) y refresca pantalla (`moverse()`).
    - **Fantasmas** (`ghostLogic()`): identifica cada fantasma por `id`, restablece color previo, evita borrar objetos valiosos (`atravesar()`) y redibuja.
 
 5. **Prevención de Colisiones**
