@@ -39,11 +39,11 @@ python movGhost.py   # imprime en consola las 100 líneas DEC para ghostMovimien
 
 4. **Lógica de Personajes**
    - **Pac‑Man** (`pacmanLogic()`): evita muros (`isPared()`), gestiona esteroides (`isEsteroide()`), actualiza puntaje (`getScore()`), detecta colisiones (`GameOver`) y refresca pantalla (`moverse()`).
-   - **Fantasmas** (`ghostLogic()`): identifica cada fantasma por `id`, restablece color previo, evita borrar objetos valiosos (`atravesar()`) y redibuja.
+   - **Fantasmas** (`ghostLogic()`): identifica cada fantasma por `id`, restablece color previo, evita borrar objetos valiosos con (`atravesar()`) y redibuja, en caso de que no se elimine nada se llama a `moverse()`.
 
 5. **Prevención de Colisiones**
    - `isPared()`: detiene movimiento si hay muro.
-   - `touchPacman()`: detecta choque fantasma–Pac‑Man y llama a `HandleLifeLoss()`.
+   - `touchPacman()`: detecta choque fantasma-Pac‑Man y llama a `HandleLifeLoss()` o a `getScore()` en caso de que el fantasma pueda ser comido.
 
 6. **Gestión de Estado**
    - **Puntuación**: +1 por moneda (`setScoreBolita()`), +10 por fantasma (`setScoreFantasma()`).
