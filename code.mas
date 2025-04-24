@@ -1,0 +1,2428 @@
+Jump MAPA
+
+pacMovimientos, DEC 4
+DEC 4
+DEC 4
+DEC 1
+DEC 1
+DEC 3
+DEC 3
+DEC 3
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 3
+DEC 3
+DEC 3
+DEC 2
+DEC 4
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 1
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 4
+DEC 2
+DEC 4
+DEC 4
+DEC 1
+DEC 3
+DEC 3
+DEC 1
+DEC 1
+DEC 4
+DEC 4
+DEC 4
+DEC 1
+DEC 3
+DEC 3
+DEC 2
+DEC 3
+DEC 3
+DEC 3
+DEC 3
+DEC 2
+DEC 3
+DEC 3
+DEC 3
+DEC 3
+DEC 3
+DEC 2
+DEC 2
+DEC 4
+DEC 4
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 4
+DEC 1
+DEC 1
+DEC 1
+DEC 3
+DEC 3
+DEC 3
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 2
+DEC 3
+DEC 3
+DEC 3
+DEC 3
+DEC 3
+
+ghostMovimientos, DEC 4
+DEC 4
+DEC 1
+DEC 3
+DEC 1
+DEC 2
+DEC 3
+DEC 4
+DEC 4
+DEC 3
+DEC 4
+DEC 4
+DEC 1
+DEC 4
+DEC 2
+DEC 2
+DEC 3
+DEC 3
+DEC 1
+DEC 2
+DEC 3
+DEC 3
+DEC 4
+DEC 4
+DEC 3
+DEC 3
+DEC 4
+DEC 1
+DEC 2
+DEC 4
+DEC 3
+DEC 2
+DEC 2
+DEC 4
+DEC 1
+DEC 1
+DEC 2
+DEC 4
+DEC 1
+DEC 1
+DEC 1
+DEC 3
+DEC 1
+DEC 1
+DEC 1
+DEC 3
+DEC 2
+DEC 2
+DEC 2
+DEC 1
+DEC 2
+DEC 4
+DEC 4
+DEC 3
+DEC 1
+DEC 4
+DEC 4
+DEC 2
+DEC 3
+DEC 3
+DEC 3
+DEC 1
+DEC 1
+DEC 4
+DEC 2
+DEC 4
+DEC 1
+DEC 3
+DEC 1
+DEC 3
+DEC 3
+DEC 1
+DEC 1
+DEC 3
+DEC 3
+DEC 1
+DEC 2
+DEC 4
+DEC 1
+DEC 1
+DEC 4
+DEC 2
+DEC 3
+DEC 2
+DEC 4
+DEC 3
+DEC 3
+DEC 4
+DEC 3
+DEC 3
+DEC 2
+DEC 3
+DEC 1
+DEC 3
+DEC 3
+DEC 4
+DEC 1
+DEC 2
+DEC 3
+DEC 1
+
+MAPA, LOAD OFFSET
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BLINKY_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PINKY_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD INKY_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD CLYDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PAC-MAN_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD BOLITA_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD ESTEROIDE_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+ADD ONE
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+STORE MAP_POSITION
+LOAD PARED_COLOR
+STOREI MAP_POSITION
+LOAD MAP_POSITION
+ADD ONE
+
+Load pac-manColumn
+Store pacColumn
+Load pac-manRow
+Store pacRow
+
+Load clydeColumn
+Store clydeAuxColumn
+Load clydeRow
+Store clydeAuxRow
+
+Load inkyColumn
+Store inkyAuxColumn	
+Load inkyRow
+Store inkyAuxRow
+
+Load pinkyColumn
+Store pinkyAuxColumn
+Load pinkyRow
+Store pinkyAuxRow
+
+Load blinkyColumn
+Store blinkyAuxColumn
+Load blinkyRow
+Store blinkyAuxRow
+
+///CODIGO///
+PACMAN, Load pacColumn
+	Store column
+	Load pacRow
+	Store row
+	Load PAC-MAN_COLOR
+	Store COLOR
+
+	Load idPacman
+	Store id
+	
+	Jump getMovPac()
+
+CLYDE, Load clydeAuxColumn
+	Store column
+	Load clydeAuxRow
+	Store row
+	Load CLYDE_COLOR
+	Store COLOR
+
+	Load idClyde
+	Store id
+	
+	Jump getMovGhost()
+
+INKY, Load inkyAuxColumn
+	Store column
+	Load inkyAuxRow
+	Store row
+	Load INKY_COLOR
+	Store COLOR
+
+	Load idInky
+	Store id
+	
+	Jump getMovGhost()
+
+PINKY, Load pinkyAuxColumn
+	Store column
+	Load pinkyAuxRow
+	Store row
+	Load PINKY_COLOR
+	Store COLOR
+
+	Load idPinky
+	Store id
+	
+	Jump getMovGhost()
+
+BLINKY, Load blinkyAuxColumn
+	Store column
+	Load blinkyAuxRow
+	Store row
+	Load BLINKY_COLOR
+	Store COLOR
+
+	Load idBlinky
+	Store id
+	
+	Jump getMovGhost()
+
+getMovPac(),	Load ptrPac
+	Add iterator
+	Store ptr
+
+	Load iterator
+	Add ONE
+	Store iterator
+	
+	Load counter
+	Subt ONE
+	Store counter
+	SkipCond 800
+	Jump ResetPtr
+
+	Jump INICIO
+
+getMovGhost(),	Load ptrGhost
+	Add iterator2
+	Store ptr
+
+	Load iterator2
+	Add ONE
+	Store iterator2
+	
+	Load counter2
+	Subt ONE
+	Store counter2
+	SkipCond 800
+	Jump ResetPtr
+
+	Jump INICIO
+
+/START: ResetPtr
+ResetPtr, Load iterator
+		Subt CIEN
+		SkipCond 000
+		Jump resetIterator()
+
+		Load iterator2
+		Subt CIEN
+		SkipCond 000
+		Jump resetIterator2()
+		Jump INICIO
+
+		resetIterator(), Load ONE
+		Store iterator
+		Jump resetCounter()
+
+		resetIterator2(), Load ONE
+		Store iterator2
+		Jump resetCounter2()
+
+		resetCounter(), Load CIEN
+		   Store counter
+		   Jump getMovPac()
+
+		resetCounter2(), Load CIEN
+		   Store counter2
+		   Jump getMovGhost()
+
+/S: Punteros y contadores
+ptrPac, HEX 0	/puntero pacman
+ptrGhost, HEX 65	/puntero fantasmas
+counter, DEC 100	/counter pacman
+counter2, DEC 100	/counter fantasmas
+iterator, DEC 1	/iterador pacman
+iterator2, DEC 1	/iterador fantasma
+/E: Punteros y contadores
+	
+/END: ResetPtr
+
+/START: Inicio
+INICIO, Loadi ptr
+		Subt arriba
+		SkipCond 0C00
+		Jump UP
+
+		LoadI ptr
+		Subt abajo
+		SkipCond 0C00
+		Jump DOWN
+
+		LoadI ptr
+		Subt izquierda
+		SkipCond 0C00
+		Jump LEFT
+
+		LoadI ptr
+		Subt derecha
+		SkipCond 0C00
+		Jump RIGHT
+
+/↑↑↓↓←→←→BA
+arriba, DEC 1
+abajo, DEC 2
+izquierda, DEC 3
+derecha, DEC 4
+
+ptr, HEX 0	/puntero generico
+
+/END: Inicio
+
+/START: checkTurn()
+checkTurn(), Clear
+	Store muerto
+	
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	Jump savePacPosition()
+	Jump inkyTurn()
+
+		savePacPosition(), Load column 
+		Store pacColumn
+		Load row
+		Store pacRow
+		Jump INKY
+	
+	inkyTurn(), Load id
+	Subt idInky
+	SkipCond 0C00
+	Jump saveInkyPosition()
+	Jump pinkyTurn()
+
+		saveInkyPosition(), Load column 
+		Store inkyAuxColumn
+		Load row
+		Store inkyAuxRow
+		Jump PINKY
+
+	pinkyTurn(), Load id
+	Subt idPinky
+	SkipCond 0C00
+	Jump savePinkyPosition()
+	Jump blinkyTurn()
+
+		savePinkyPosition(), Load column 
+		Store pinkyAuxColumn
+		Load row
+		Store pinkyAuxRow
+		Jump BLINKY
+
+	blinkyTurn(), Load id
+	Subt idBlinky
+	SkipCond 0C00
+	Jump saveBlinkyPosition()
+	Jump clydeTurn()
+
+		saveBlinkyPosition(), Load column 
+		Store blinkyAuxColumn
+		Load row
+		Store blinkyAuxRow
+		Jump CLYDE
+
+	clydeTurn(), Jump saveClydePosition()
+
+		saveClydePosition(), Load column 
+		Store clydeAuxColumn
+		Load row
+		Store clydeAuxRow
+		Jump PACMAN
+/END: checkTurn()
+
+UP, Load row
+	Store R
+	Load column
+	Store var
+	Store C
+	JnS getHex()
+	Load position
+	Store currentPosition
+
+	Load row
+	Subt ONE
+	Store dividendo
+	JnS Modulo
+
+	Load dividendo
+	Store R
+	Load column
+	Store C
+	JnS getHex()
+	Load position
+	Store nextPosition
+
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	JnS pacmanLogic()
+	Jns ghostLogic()
+
+	JnS increaseStepCounter()
+	Load dividendo
+	Store row
+	Load var
+	Store column
+	Jump checkTurn()
+
+DOWN, Load row
+	Store R
+	Load column
+	Store var
+	Store C
+	JnS getHex()
+	Load position
+	Store currentPosition
+
+	Load row
+	Add ONE
+	Store dividendo
+	JnS Modulo
+
+	Load dividendo
+	Store R
+	Load column
+	Store C
+	JnS getHex()
+	Load position
+	Store nextPosition
+
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	JnS pacmanLogic()
+	Jns ghostLogic()
+
+	JnS increaseStepCounter()
+	Load dividendo
+	Store row
+	Load var
+	Store column
+	Jump checkTurn()
+
+LEFT,	Load row
+	Store R
+	Store var
+	Load column
+	Store C
+	JnS getHex()
+	Load position
+	Store currentPosition
+
+	Load column
+	Subt ONE
+	Store dividendo
+	JnS Modulo
+
+	Load dividendo
+	Store C
+	Load row
+	Store R
+	JnS getHex()
+	Load position
+	Store nextPosition
+
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	JnS pacmanLogic()
+	Jns ghostLogic()
+
+	JnS increaseStepCounter()
+	Load dividendo
+	Store column
+	Load var
+	Store row
+	Jump checkTurn()
+
+RIGHT,	Load row
+	Store R
+	Store var
+	Load column
+	Store C
+	JnS getHex()
+	Load position
+	Store currentPosition
+
+	Load column
+	Add ONE
+	Store dividendo
+	JnS Modulo
+
+	Load dividendo
+	Store C
+	Load row
+	Store R
+	JnS getHex()
+	Load position
+	Store nextPosition
+
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	JnS pacmanLogic()
+	Jns ghostLogic()
+
+	JnS increaseStepCounter()
+	Load dividendo
+	Store column
+	Load var
+	Store row
+	Jump checkTurn()
+
+/START: Moverse
+moverseFalso(),	HEX 0
+	Load COLOR
+	StoreI nextPosition
+	JumpI moverseFalso()
+/END: Moverse
+
+/START: Moverse
+moverse(),	HEX 0
+	Load BLACK
+	StoreI currentPosition
+
+	Load COLOR
+	StoreI nextPosition
+	JumpI moverse()
+/END: Moverse
+
+/START: pacmanLogic()
+pacmanLogic(),	HEX 0
+	JnS isPared()
+	JnS isEsteroide()
+	JnS getScore()
+	JnS GameOver
+	Jns moverse()
+	JumpI pacmanLogic()
+/END: pacmanLogic()
+
+/START: ghostLogic()
+moveBlinky, Load blinkyPREV_COLOR
+	Store prevColor
+	Jump continue
+
+moveInky, Load inkyPREV_COLOR
+	Store prevColor
+	Jump continue
+
+movePinky, Load pinkyPREV_COLOR
+	Store prevColor
+	Jump continue
+
+moveClyde, Load clydePREV_COLOR
+	Store prevColor
+	Jump continue
+	
+prevColor, HEX 0
+
+ghostLogic(),	HEX 000
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	JumpI ghostLogic()
+
+	LoadI currentPosition
+	Subt BLACK
+	SkipCond 0C00
+	Jump pintar()
+	Jump next
+
+	pintar(), Load COLOR
+		StoreI currentPosition
+
+	next, JnS isPared()
+		JnS touchPacman()
+
+		Load muerto
+		Subt ONE
+		SkipCond 0C00
+		Jump checkTurn()
+
+		Clear
+		Store muerto
+
+	IDK, Load id
+	Subt idClyde
+	SkipCond 0C00
+	Jump moveClyde
+
+	Load id
+	Subt idBlinky
+	SkipCond 0C00
+	Jump moveBlinky
+
+	Load id
+	Subt idInky
+	SkipCond 0C00
+	Jump moveInky
+	
+	Load id
+	Subt idPinky
+	SkipCond 0C00
+	Jump movePinky
+
+		continue, LoadI currentPosition
+		Subt BOLITA_COLOR
+		SkipCond 0C00
+		Jump blackFalso()
+	
+		LoadI currentPosition
+		Subt ESTEROIDE_COLOR
+		SkipCond 0C00
+		Jump blackFalso()
+
+		LoadI nextPosition
+		Subt FANTASMACOMIDO_COLOR
+		SkipCond 0C00
+		Jump insertNombre
+	
+		LoadI nextPosition
+		Subt BLINKY_DEFAULTCOLOR
+		SkipCond 0C00
+		Jump insertNombre
+	
+		LoadI nextPosition
+		Subt PINKY_DEFAULTCOLOR
+		SkipCond 0C00
+		Jump insertNombre
+	
+		LoadI nextPosition
+		Subt INKY_DEFAULTCOLOR
+		SkipCond 0C00
+		Jump insertNombre
+	
+		LoadI nextPosition
+		Subt CLYDE_DEFAULTCOLOR
+		SkipCond 0C00
+		Jump insertNombre
+		Jump at()
+
+	generic(), Load prevColor
+			StoreI currentPosition
+			Jump blackFalso()
+	blackFalso(), JnS moverseFalso()
+		Jump volver()
+	black(), Jns moverse()
+		Jump volver()
+	at(), JnS atravesar()
+		Jump volver()
+	volver(),	JumpI ghostLogic()
+
+	insertNombre, Load prevColor
+		Subt BOLITA_COLOR
+		SkipCond 0C00
+		Jump decision()
+
+		Load prevColor
+		Subt ESTEROIDE_COLOR
+		SkipCond 0C00
+		Jump decision()
+		Jump black()
+
+	/S: decision()
+	decision(),	Load id
+			Subt idClyde
+			SkipCond 0C00
+			Jump dClyde
+
+			Load id
+			Subt idBlinky
+			SkipCond 0C00
+			Jump dBlinky
+
+			Load id
+			Subt idInky
+			SkipCond 0C00
+			Jump dInky
+
+			Load id
+			Subt idPinky
+			Subt 0C00
+			Jump dPinky
+			Jump generic()
+	/E: decision()
+	
+	/S: decisionGhost()
+	dBlinky, Load BLACK
+		Store blinkyPREV_COLOR
+		Jump generic()
+
+	dInky,	Load BLACK
+		Store inkyPREV_COLOR
+		Jump generic()
+
+	dPinky,	Load BLACK
+		Store pinkyPREV_COLOR
+		Jump generic()
+
+	dClyde, Load BLACK
+		Store clydePREV_COLOR
+		Jump generic()
+	/E: decisionGhost()
+/END: ghostLogic()
+
+/START: atravesar()
+atravesar(),	HEX 000
+	
+	 isClyde(), Load id
+		 Subt idClyde
+		 SkipCond 0C00
+		 Jump saveClydePrevPosition()
+		 Jump isInky()
+
+		  saveClydePrevPosition(), Load currentPosition
+			  Store prevPositionClyde
+			  Load clydePREV_COLOR
+			  StoreI currentPosition
+
+			  LoadI nextPosition
+			  Store clydePREV_COLOR
+
+			  Load COLOR
+			  StoreI nextPosition
+			  Load nextPosition
+			  Store posPosClyde
+		
+			  JumpI atravesar()
+
+	 isInky(), Load id
+		 Subt idInky
+		 SkipCond 0C00
+		 Jump saveInkyPrevPosition()
+		 Jump isPinky()
+	 
+		  saveInkyPrevPosition(), Load currentPosition
+			  Store prevPositionInky
+			  Load inkyPREV_COLOR
+			  StoreI currentPosition
+
+			  LoadI nextPosition
+			  Store inkyPREV_COLOR
+
+			  Load COLOR
+			  StoreI nextPosition
+			  Load nextPosition
+			  Store posPosInky
+		
+			  JumpI atravesar()
+
+	 isPinky(), Load id
+		 Subt idPinky
+		 SkipCond 0C00
+		 Jump savePinkyPrevPosition()
+		 Jump isBlinky()
+	 
+		 savePinkyPrevPosition(), Load currentPosition
+			  Store prevPositionPinky
+			  Load pinkyPREV_COLOR
+			  StoreI currentPosition
+
+			  LoadI nextPosition
+			  Store pinkyPREV_COLOR
+
+			  Load COLOR
+			  StoreI nextPosition
+			  Load nextPosition
+			  Store posPosPinky
+		
+			  JumpI atravesar()
+
+	 isBlinky(), Load id
+		 Subt idBlinky
+		 SkipCond 0C00
+		 Jump saveBlinkyPrevPosition()
+		 Jump isBlinky()
+	 
+		 saveBlinkyPrevPosition(), Load currentPosition
+			  Store prevPositionInky
+			  Load blinkyPREV_COLOR
+			  StoreI currentPosition
+
+			  LoadI nextPosition
+			  Store blinkyPREV_COLOR
+
+			  Load COLOR
+			  StoreI nextPosition
+			  Load nextPosition
+			  Store posPosBlinky
+		
+			  JumpI atravesar()
+
+posPosBlinky, HEX 0
+posPosInky, HEX 0
+posPosPinky, HEX 0
+posPosClyde, HEX 0
+/END: atravesar()
+
+/START: touchPacman()
+touchPacman(),	HEX 000
+	LoadI nextPosition
+	Subt PAC-MAN_COLOR
+	SkipCond 400
+	JumpI touchPacman()
+	
+	LoadI currentPosition
+	Subt FANTASMACOMIDO_COLOR
+	SkipCond 400
+	Jump HandleLifeLoss
+
+	JnS getScore()
+	/declara muerte
+	Load muerto
+	Add ONE
+	Store muerto
+	JumpI touchPacman()
+/END: touchPacman()
+
+/START: Lógica esteroides
+increaseStepCounter(), HEX 000
+	Load id
+	Subt idPacman
+	SkipCond 400
+	JumpI increaseStepCounter()
+
+	Load esteroideTrue
+	SkipCond 0C00
+	JumpI increaseStepCounter()
+	
+	Load stepCounter
+	Add ONE
+	Store stepCounter
+	Subt STEP_LIMIT
+	SkipCond 400
+
+	JumpI increaseStepCounter()
+
+	Load BLINKY_DEFAULTCOLOR
+	Store BLINKY_COLOR
+
+	Load INKY_DEFAULTCOLOR
+	Store INKY_COLOR
+
+	Load CLYDE_DEFAULTCOLOR
+	Store CLYDE_COLOR
+
+	Load PINKY_DEFAULTCOLOR
+	Store PINKY_COLOR
+
+	Clear
+	Store stepCounter
+
+	Load esteroideTrue
+	Subt ONE
+	Store esteroideTrue
+
+	JumpI increaseStepCounter()
+
+isEsteroide(), HEX 000
+	LoadI nextPosition
+	Subt ESTEROIDE_COLOR
+	SkipCond 400
+	JumpI isEsteroide()
+	JnS goEsteroide()
+	JumpI isEsteroide()
+
+	goEsteroide(), HEX 0
+	Clear
+	Store stepCounter
+	Load FANTASMACOMIDO_COLOR
+	Store CLYDE_COLOR
+	Store BLINKY_COLOR
+	Store INKY_COLOR
+	Store PINKY_COLOR
+
+	Load esteroideTrue 
+	Add ONE
+	Store esteroideTrue
+
+	JumpI goEsteroide()
+
+esteroideTrue, DEC 0	/intento de booleano
+stepCounter, DEC 0	/contador de pasos para esteroide
+/END: Lógica esteroides
+
+/START: Score
+getScore(),	HEX 000
+	LoadI nextPosition
+	Subt BOLITA_COLOR
+	SkipCond 0C00
+	Jns setScoreBolita()
+
+	LoadI nextPosition
+	Subt FANTASMACOMIDO_COLOR
+	SkipCond 0C00
+	Jns setScoreFantasma()
+
+	LoadI nextPosition
+	Subt PAC-MAN_COLOR
+	SkipCond 0C00
+	Jns setScoreFantasma()
+	
+	LoadI position
+	Subt ESTEROIDE_COLOR
+	SkipCond 0C00
+	Jns setScoreEsteroide()
+	JumpI getScore()
+
+setScoreEsteroide(), HEX 0
+	Load consumibles
+	Add ONE
+	Store consumibles
+	JumpI setScoreEsteroide()
+
+setScoreBolita(),	HEX 000
+	Load score
+	Add ONE
+	Store score
+	
+	Load consumibles
+	Add ONE
+	Store consumibles
+	
+	JumpI setScoreBolita()
+
+consumibles, DEC 0	/consumibles ingeridos
+
+setScoreFantasma(),	HEX 000
+	Load score
+	Add TEN
+	Store score
+
+	/verifica si un fantasma o el pacman llaman al metodo
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	Jump porPos
+
+	Load id
+	Subt idClyde
+	SkipCond 0C00
+	Jump resetClyde()
+
+	Load id
+	Subt idBlinky
+	SkipCond 0C00
+	Jump resetBlinky()
+
+	Load id
+	Subt idInky
+	SkipCond 0C00
+	Jump resetInky()
+
+	Load id
+	Subt idPinky
+	SkipCond 0C00
+	Jump resetPinky()
+
+	porPos, Load nextPosition
+	Subt posPosBlinky
+	SkipCond 0C00
+	Jump resetBlinky()
+
+	Load nextPosition
+	Subt posPosClyde
+	SkipCond 0C00
+	Jump resetClyde()
+
+	Load nextPosition
+	Subt posPosInky
+	SkipCond 0C00
+	Jump resetInky()
+
+	Load nextPosition
+	Subt posPosPinky
+	SkipCond 0C00
+	Jump resetPinky()
+
+	resetBlinky(),	Load blinkyPREV_COLOR
+		Subt BOLITA_COLOR
+		SkipCond 0C00
+		JnS setScoreBolita()
+
+		Load blinkyPREV_COLOR
+		Subt ESTEROIDE_COLOR
+		SkipCond 0C00
+		JnS goEsteroide()
+		
+		Load BLACK
+		Store blinkyPREV_COLOR
+
+		Load blinkyAuxColumn
+		Store C
+		Load blinkyAuxRow
+		Store R
+		JnS getHex()
+		Load BLACK
+		StoreI position
+
+		Load blinkyColumn
+		Store blinkyAuxColumn
+		Store column
+		Load blinkyRow
+		Store blinkyAuxRow
+		Store row
+
+		Load blinkyColumn
+		Store C
+		Load blinkyRow
+		Store R
+		JnS getHex()
+		Load BLINKY_DEFAULTCOLOR
+		StoreI position
+		Store BLINKY_COLOR
+
+		JumpI setScoreFantasma()
+
+	resetClyde(),	Load clydePREV_COLOR
+		Subt BOLITA_COLOR
+		SkipCond 0C00
+		JnS setScoreBolita()
+
+		Load clydePREV_COLOR
+		Subt ESTEROIDE_COLOR
+		SkipCond 0C00
+		JnS goEsteroide()
+		
+		Load BLACK
+		Store clydePREV_COLOR
+
+		Load clydeAuxColumn
+		Store C
+		Load clydeAuxRow
+		Store R
+		JnS getHex()
+		Load BLACK
+		StoreI position
+
+		Load clydeColumn
+		Store column
+		Store clydeAuxColumn
+		Load clydeRow
+		Store clydeAuxRow
+		Store row
+
+		Load clydeColumn
+		Store C
+		Load clydeRow
+		Store R
+		JnS getHex()
+		Load CLYDE_DEFAULTCOLOR
+		StoreI position
+		Store CLYDE_COLOR
+
+		JumpI setScoreFantasma()
+
+	resetInky(), Load inkyPREV_COLOR
+		Subt BOLITA_COLOR
+		SkipCond 0C00
+		JnS setScoreBolita()
+
+		Load inkyPREV_COLOR
+		Subt ESTEROIDE_COLOR
+		SkipCond 0C00
+		JnS goEsteroide()
+		
+		Load BLACK
+		Store inkyPREV_COLOR
+
+		Load inkyAuxColumn
+		Store C
+		Load inkyAuxRow
+		Store R
+		JnS getHex()
+		Load BLACK
+		StoreI position
+
+		Load inkyColumn
+		Store inkyAuxColumn
+		Store column
+		Load inkyRow
+		Store inkyAuxRow
+		Store row
+
+		Load inkyColumn
+		Store C
+		Load inkyRow
+		Store R
+		JnS getHex()
+		Load INKY_DEFAULTCOLOR
+		StoreI position
+		Store INKY_COLOR
+
+		JumpI setScoreFantasma()
+
+	resetPinky(), Load pinkyPREV_COLOR
+		Subt BOLITA_COLOR
+		SkipCond 0C00
+		JnS setScoreBolita()
+
+		Load pinkyPREV_COLOR
+		Subt ESTEROIDE_COLOR
+		SkipCond 0C00
+		JnS goEsteroide()
+		
+		Load BLACK
+		Store pinkyPREV_COLOR
+
+		Load pinkyAuxColumn
+		Store C
+		Load pinkyAuxRow
+		Store R
+		JnS getHex()
+		Load BLACK
+		StoreI position
+
+		Load pinkyColumn
+		Store column
+		Store pinkyAuxColumn
+		Load pinkyRow
+		Store pinkyAuxRow
+		Store row
+
+		Load pinkyColumn
+		Store C
+		Load pinkyRow
+		Store R
+		JnS getHex()
+		Load PINKY_DEFAULTCOLOR
+		StoreI position
+		Store PINKY_COLOR
+
+		JumpI setScoreFantasma()
+
+score, DEC 0
+/END: Score
+
+/START: isPared()
+isPared(),	HEX 000
+	LoadI nextPosition
+	Subt PARED_COLOR
+	SkipCond 400
+	JumpI isPared()
+
+	Load id
+	Subt idPacman
+	SkipCond 0C00
+	Jump getMovPac()
+	Jump getMovGhost()
+/END: isPared()
+
+/START: GameOver
+GameOver, HEX 000
+    LoadI nextPosition
+    Subt BLINKY_DEFAULTCOLOR
+    SkipCond 0C00
+    Jump HandleLifeLoss
+
+    LoadI nextPosition
+    Subt PINKY_DEFAULTCOLOR
+    SkipCond 0C00
+    Jump HandleLifeLoss
+
+    LoadI nextPosition
+    Subt INKY_DEFAULTCOLOR
+    SkipCond 0C00
+    Jump HandleLifeLoss
+
+    LoadI nextPosition
+    Subt CLYDE_DEFAULTCOLOR
+    SkipCond 0C00
+    Jump HandleLifeLoss
+
+	Load consumibles
+	Subt CONSUMIBLES_TOTALES
+	SkipCond 0C00
+	JnS checkConsumibles()
+
+    JumpI GameOver
+
+	checkConsumibles(), Load BLACK
+		StoreI currentPosition
+		Load PAC-MAN_COLOR
+		StoreI position
+		Jump FINAL
+	
+	HandleLifeLoss, Load vidas
+	    Subt ONE
+	    Store vidas
+	    SkipCond 400   /Si vidas == 0, terminar juego
+	    Jump ResetPositions	/si aun hay vidas continuar
+		Jump FINAL
+
+vidas, DEC 3
+/END: GameOver
+
+/Eso es todo amigos
+FINAL,	Load score
+	Output
+	Load consumibles
+	Output
+	Halt
+
+/START: ResetPosition
+ResetPositions, Load BLACK	/posiciones previas resetea
+	Store blinkyPREV_COLOR
+	Store inkyPREV_COLOR
+	Store pinkyPREV_COLOR
+	Store clydePREV_COLOR
+
+	/ocultar pacman
+	Load pacRow
+	Store R
+	Load pacColumn
+	Store C
+	JnS getHex()
+	Load BLACK
+	StoreI position
+
+	/ocular fantasmas
+	Load blinkyAuxColumn
+	Store C
+	Load blinkyAuxRow
+	Store R
+	JnS getHex()
+	Load BLACK
+	StoreI position
+
+	Load pinkyAuxColumn
+	Store C
+	Load pinkyAuxRow
+	Store R
+	JnS getHex()
+	Load BLACK
+	StoreI position
+
+	Load inkyAuxColumn
+	Store C
+	Load inkyAuxRow
+	Store R
+	JnS getHex()
+	Load BLACK
+	StoreI position
+
+	Load clydeAuxColumn
+	Store C
+	Load clydeAuxRow
+	Store R
+	JnS getHex()
+	Load BLACK
+	StoreI position
+
+	Load pac-manRow
+    Store pacRow
+    Load pac-manColumn
+    Store pacColumn
+
+    /Restablecer posiciones de fantasmas
+    Load blinkyRow
+    Store blinkyAuxRow
+    Load blinkyColumn
+    Store blinkyAuxColumn
+
+    Load pinkyRow
+    Store pinkyAuxRow
+    Load pinkyColumn
+    Store pinkyAuxColumn
+
+    Load inkyRow
+    Store inkyAuxRow
+    Load inkyColumn
+    Store inkyAuxColumn
+
+    Load clydeRow
+    Store clydeAuxRow
+    Load clydeColumn
+    Store clydeAuxColumn
+
+	/resetear el color de los fantasmas
+	Load BLINKY_DEFAULTCOLOR
+	Store BLINKY_COLOR
+	Load INKY_DEFAULTCOLOR
+	Store INKY_COLOR
+	Load CLYDE_DEFAULTCOLOR
+	Store CLYDE_COLOR
+	Load PINKY_DEFAULTCOLOR
+	Store PINKY_COLOR
+
+	/resetear posiciones
+	Load pac-manColumn
+	Store C
+	Load pac-manRow
+	Store R
+	JnS getHex()
+	Load PAC-MAN_COLOR
+	StoreI position
+
+	Load blinkyColumn
+	Store C
+	Load blinkyRow
+	Store R
+	JnS getHex()
+	Load BLINKY_COLOR
+	StoreI position
+
+	Load pinkyColumn
+	Store C
+	Load pinkyRow
+	Store R
+	JnS getHex()
+	Load PINKY_COLOR
+	StoreI position
+
+	Load inkyColumn
+	Store C
+	Load inkyRow
+	Store R
+	JnS getHex()
+	Load INKY_COLOR
+	StoreI position
+
+	Load clydeColumn
+	Store C
+	Load clydeRow
+	Store R
+	JnS getHex()
+	Load CLYDE_COLOR
+	StoreI position
+
+	/volver al pacman
+	Jump PACMAN
+/END: ResetPosition
+
+/START: getHex()
+getHex(),	HEX 0
+	Load OFFSET
+	Add C
+	Store position
+
+	Load R
+	Store x
+	Load DISPLAY_SIZE
+	Store y
+	JnS multiply()
+
+	Load resultMultiplication
+	Add position
+	Store position
+	JumpI getHex()
+
+R, DEC 0	/fila para getHex()
+C, DEC 0	/columna para getHex()
+/END: getHex()
+
+/START: Modulo 
+Modulo,	DEC 0
+	LOAD dividendo
+	SKIPCOND 000
+	JUMP SubLoopInit
+	
+	AddLoopInit, LOAD dividendo
+		AddLoop,	ADD DISPLAY_SIZE
+			STORE dividendo
+			SKIPCOND 000
+			JUMP SubLoopInit
+			JUMP AddLoop
+		  
+	SubLoopInit,	LOAD dividendo
+		Loop,	SUBT DISPLAY_SIZE
+			SKIPCOND 000
+			JUMP Pos
+			JUMP EndLoop
+		Pos,	STORE dividendo
+			JUMP Loop
+		EndLoop, LOAD dividendo
+			JUMPI Modulo
+		 
+dividendo, DEC 0
+/END: Modulo
+
+/START: multiply()
+multiply(), HEX 000 
+	Clear
+	Store resultMultiplication
+	Load x
+	SkipCond 800
+	JumpI multiply() // return 0
+
+	Load y
+	SkipCond 800
+	JumpI multiply() // return 0
+
+	START, Load resultMultiplication
+	Add y
+	Store resultMultiplication
+
+	Load x
+	Subt ONE
+	Store x
+	SkipCond 400
+	Jump START
+	JumpI multiply()
+
+x, DEC 2
+y, DEC 10
+resultMultiplication, DEC 0
+/END: multiply()
+
+
+///VARIABLES///
+//S: Variables mapa
+CONSUMIBLES_TOTALES, DEC 28
+OFFSET, HEX F00
+MAP_POSITION, HEX F00
+ONE, DEC 1
+ESTEROIDE_COLOR, HEX 7E60
+
+blinkyRow, DEC 7
+blinkyColumn, DEC 7
+BLINKY_COLOR, HEX 7C00
+
+clydeRow, DEC 8
+clydeColumn, DEC 8
+CLYDE_COLOR, HEX 7EF1
+
+PARED_COLOR, HEX 0000FF
+
+BOLITA_COLOR, HEX 7FFF
+
+pinkyRow, DEC 7
+pinkyColumn, DEC 8
+PINKY_COLOR, HEX 7EFB
+
+inkyRow, DEC 8
+inkyColumn, DEC 7
+INKY_COLOR, HEX 3FB
+
+pac-manRow, DEC 14
+pac-manColumn, DEC 7
+PAC-MAN_COLOR, HEX 7FE0
+//E: Variables mapa
+
+/S: Auxiliares personajes
+pacRow, DEC 0
+pacColumn, DEC 0
+
+clydeAuxColumn, DEC 0
+clydeAuxRow, DEC 0
+
+inkyAuxColumn, DEC 0
+inkyAuxRow, DEC 0
+
+pinkyAuxColumn, DEC 0
+pinkyAuxRow, DEC 0
+
+blinkyAuxColumn, DEC 0
+blinkyAuxRow, DEC 0
+
+prevPositionClyde, HEX 0
+prevPositionInky, HEX 0
+prevPositionBlinky, HEX 0
+prevPositionPinky, HEX 0
+/E: Auxiliares personajes
+
+
+/S: Variables fijas
+TEN, DEC 10
+CIEN, DEC 100
+CERO, DEC 0
+STEP_LIMIT, DEC 32	/contador esteroide
+DISPLAY_SIZE, DEC 16
+
+	/ID
+	idPacman, DEC 19
+	idClyde, DEC 20
+	idPinky, DEC 21
+	idInky, DEC 22
+	idBlinky, DEC 23
+	id, DEC 19	//NO ES FIJA, PERO ES ID
+	/ID
+
+BLACK, HEX 000000
+FANTASMACOMIDO_COLOR, HEX 421B //color de los fantasmas cuando pacman come un esteroide
+CLYDE_DEFAULTCOLOR, HEX 7EF1	/naranja
+INKY_DEFAULTCOLOR, HEX 3FB	/celeste
+PINKY_DEFAULTCOLOR, HEX 7EFB	/rosa
+BLINKY_DEFAULTCOLOR, HEX 7C00	/rojo
+/E: Variables fijas
+
+var, DEC 0
+row, DEC 0	/variable generica de fila
+column, DEC 0	/variable generica de columna
+muerto, DEC 0	/booleano de muerte de fantasma
+COLOR, HEX 0	/variable generica de color
+
+/posicion actual del fantasma
+clydePositionColor, HEX 0
+inkyPositionColor, HEX 0
+blinkyPositionColor, HEX 0
+pinkyPositionColor, HEX 0
+
+/bolsillo de los fantasmas
+blinkyPREV_COLOR, HEX 0
+inkyPREV_COLOR, HEX 0
+pinkyPREV_COLOR, HEX 0
+clydePREV_COLOR, HEX 0
+
+position, HEX 0	/posicion generica
+currentPosition, HEX 0	/posicion actual
+nextPosition, HEX 0	/siguiente posicion
